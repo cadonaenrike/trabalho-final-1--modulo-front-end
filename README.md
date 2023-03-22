@@ -6,7 +6,7 @@
  ![Screenshot_2](https://user-images.githubusercontent.com/95323804/226775409-009ade5e-565d-4917-8e2a-218222147e0b.png)<br><br>
 ## 🚀 Começando <br><br>
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste. <br>
-Faça o Gitclone com esse link: https://github.com/cadonaenrike/trabalho-final-1--modulo-front-end.git<br><br>[final-front-1.zip](https://github.com/cadonaenrike/trabalho-final-1--modulo-front-end/files/11035408/final-front-1.zip)
+Faça o Gitclone com esse link: https://github.com/cadonaenrike/trabalho-final-1--modulo-front-end.git<br><br>
 
 ### 📋 Pré-requisitos<br><br>
 * [VS Code](https://code.visualstudio.com/) - Editor de Código<br>
