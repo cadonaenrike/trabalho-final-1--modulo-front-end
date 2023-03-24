@@ -1,4 +1,4 @@
-<h1> Trabalho final 1º modulo fron-end <h1/>
+<h1> Trabalho final 1º modulo front-end <h1/>
 
 ## Neste projeto o objetivo criar 3 paginas html de um currículo digital.
  Imagens de exemplo da atividade:<br><br>
