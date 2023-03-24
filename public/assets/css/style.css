@@ -112,22 +112,136 @@ p {
     text-transform:initial;
 }
 
-.icons-social {
-    margin-top: 20px;
-}
-
-.icons-social a {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(43, 42, 42);
-    width: 45px;
-    height: 45px;
-    border-radius: 20px;
-    display: inline-block;
-    margin: 0 10px;
-    text-align: center;
-    line-height: 40px;
-}
+.mainButton {
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5em;
+    
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    
+  }
+  
+  .card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: 0.1px solid black;
+    background:rgb(0, 0, 0);
+    border-radius: 90px 5px 5px 5px;    
+    box-shadow: -11px -6px 8px -7px red;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.8em;
+    margin-left: 2em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: 0.1px solid black;
+    background:rgb(0, 0, 0);
+    border-radius: 5px 90px 5px 5px;    
+    box-shadow: 11px -10px 8px -7px red;
+    transition: .2s ease-in-out;
+  }
+  
+  .facebook {
+    margin-top: 2em;
+    margin-left: 1.5em;
+    fill: #16aaee;
+  }
+  
+  .card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: 0.1px solid black;
+    background:rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: -14px 14px 8px -7px red;
+    transition: .2s ease-in-out;
+  }
+  
+  .github {
+    fill: rgb(255, 255, 255);
+    margin-top: 1.5em;
+    margin-left: 2em;
+  }
+  
+  .card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: 0.1px solid black;
+    background:rgb(0, 0, 0);
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: 14px 14px 8px -7px red; 
+    transition: .2s ease-in-out;
+  }
+  
+  .linkedn {
+    margin-top: 1.8em;
+    margin-left:1em;
+    fill: #8c9eff;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .card2:hover .facebook {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .card3:hover .github {
+    fill:rgb(0, 0, 0);
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+  }
+  
+  .card4:hover .linkedn {
+    fill: white;
+  }
 
 .vidro-fundo {
     background-image: url(/assets/images/CraftyCircularBeauceron-max-1mb.gif) ;
