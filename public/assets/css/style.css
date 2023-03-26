@@ -11,33 +11,6 @@ html,body {
 .main {
     display: flex;
 }
-
-.barra-lateral{
-    filter: drop-shadow(0 0 20px rgb(255, 255, 255));
-    width: 20%;
-    height: 100%;
-    position: fixed;
-    background-color: rgb(97, 0, 0);
-} 
-
-.barra-lateral-pos{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.img-barra-lateral{
-    text-align: center;
-    padding-top: 30px;
-}
-
-.img-barra-lateral img{
-  filter: drop-shadow(0 0 20px rgb(252, 122, 122));
-  width: 80%;
-  border-radius: 50%;
-  border: 8px solid rgb(141, 0, 0);
-}
-
 .menu {
     margin: 20px 0;
     text-align: center;
@@ -111,137 +84,187 @@ p {
     margin-top: 40px;
     text-transform:initial;
 }
+/*Efeitos dos a href animados */
 
-.mainButton {
-    margin: 25px;
-    display: flex;
-    align-items:end;
-    flex-direction: column;
-    gap: 0.5em;
-    
-  }
-  
-  .up {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-    
-  }
-  
-  .down {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-    
-  }
-  
-  .card1 {
-    width: 90px;
-    height: 90px;
-    outline: none;
-    border: 0.1px solid black;
-    background:rgb(0, 0, 0);
-    border-radius: 90px 5px 5px 5px;    
-    box-shadow: -11px -6px 14px -7px rgb(97, 0, 0);
-    transition: .2s ease-in-out;
-  }
-  
-  .instagram {
-    margin-top: 1.8em;
-    margin-left: 2em;
-    fill: #cc39a4;
-  }
-  
-  .card2 {
-    width: 90px;
-    height: 90px;
-    outline: none;
-    border: 0.1px solid black;
-    background:rgb(0, 0, 0);
-    border-radius: 5px 90px 5px 5px;    
-    box-shadow: 11px -6px 14px -7px rgb(97, 0, 0);
-    transition: .2s ease-in-out;
-  }
-  
-  .facebook {
-    margin-top: 2em;
-    margin-left: 1.5em;
-    fill: #16aaee;
-  }
-  
-  .card3 {
-    width: 90px;
-    height: 90px;
-    outline: none;
-    border: 0.1px solid black;
-    background:rgb(0, 0, 0);
-    border-radius: 5px 5px 5px 90px;
-    box-shadow: -14px 6px 14px -7px rgb(97, 0, 0);
-    transition: .2s ease-in-out;
-  }
-  
-  .github {
-    fill: rgb(255, 255, 255);
-    margin-top: 1.5em;
-    margin-left: 2em;
-  }
-  
-  .card4 {
-    width: 90px;
-    height: 90px;
-    outline: none;
-    border: 0.1px solid black;
-    background:rgb(0, 0, 0);
-    border-radius: 5px 5px 90px 5px;
-    box-shadow: 14px 8px 14px -7px rgb(97, 0, 0); 
-    transition: .2s ease-in-out;
-  }
-  
-  .linkedn {
-    margin-top: 1.8em;
-    margin-left:1em;
-    fill: #8c9eff;
-  }
-  
-  .card1:hover {
-    cursor: pointer;
-    scale: 1.1;
-    background-color: #cc39a4;
-  }
-  
-  .card1:hover .instagram {
-    fill: white;
-  }
-  
-  .card2:hover {
-    cursor: pointer;
-    scale: 1.1;
-    background-color: #03A9F4;
-  }
-  
-  .card2:hover .facebook {
-    fill: white;
-  }
-  
-  .card3:hover {
-    cursor: pointer;
-    scale: 1.1;
+.social-links,.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(93, 0, 0, 0.504);
+  background: rgb(255, 254, 254);
+  margin: 10px;
+  transition: 0.3s;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.social-btn svg {
+  height: 34px;
+  width: 34px;
+}
+
+.social-btn a{
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.social-btn:hover {
+  width: 250px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: 150px;
+}
+
+#insta svg {
+  fill: #ae00ff;
+  width: 50px;
+  height: 50px;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: #333;
+}
+
+
+  .gitHtml {
     background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    margin: 5px;
+    padding: 18px 10px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 1px  black;
+    transition: all .2s ease;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color:  rgb(97, 0, 0);
+    font-weight: 800;
   }
   
-  .card3:hover .github {
-    fill:rgb(0, 0, 0);
+  .gitHtml:hover {
+    color: white;
+    background-color: rgb(97, 0, 0);
+    transform: translate(-2px, -1px);
+    box-shadow: 7px 7px 1px  rgb(0, 0, 0);
+    transition: all .2s ease-in;
   }
-  
-  .card4:hover {
-    cursor: pointer;
-    scale: 1.1;
-    background-color: #8c9eff;
+  .logohtml{
+    width: 40px;
+    height: 50px;
   }
-  
-  .card4:hover .linkedn {
-    fill: white;
-  }
+
+.btn-container {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  transform: translate(-50%,-50%);
+  transition: 0.5s;
+}
+
+.btn {
+  background-color: rgb(251, 251, 251);
+  z-index: 10;
+  color:rgb(97, 0, 0);
+  font-size: 15px;
+  font-weight: 800;
+  padding: 1rem 0.5rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn-container:hover {
+  box-shadow: rgb(147, 33, 33) 0px 0px 100px;
+}
+
+.btn:hover {
+  outline: rgb(8, 8, 8) solid 3px;
+  background-color: rgb(97, 0, 0);;
+  color: rgb(255, 255, 255);
+}
+
+.btn-container:hover > .svg-1 {
+  transform: translate(300%,90%);
+}
+
+.btn-container:hover > .svg-2 {
+  transform: translate(-400%,-150%) rotate(30deg);
+}
+
+.btn-container:hover > .svg-3 {
+  transform: translate(300%,-130%) rotate(-30deg);
+}
+
+.btn-container:hover > .svg-4 {
+  transform: translate(-400%,0%) rotate(30deg);
+}
+
+.btn-container:hover > .svg-5 {
+  transform: translate(-150%,120%) rotate(-45deg);
+}
+.logocss{
+  width: 40px;
+  height: 50px;
+}
+
+
+/*Efeitos Laterais da pagina parte do perfil */
+
+.barra-lateral{
+  filter: drop-shadow(0 0 20px rgb(255, 255, 255));
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(97, 0, 0);
+} 
+
+.barra-lateral-pos{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.img-barra-lateral{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.img-barra-lateral img{
+filter: drop-shadow(0 0 20px rgb(252, 122, 122));
+width: 80%;
+border-radius: 50%;
+border: 8px solid rgb(141, 0, 0);
+}
 
 .vidro-fundo {
     background-image: url(/assets/images/CraftyCircularBeauceron-max-1mb.gif) ;
