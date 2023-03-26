@@ -115,7 +115,7 @@ p {
 .mainButton {
     margin: 25px;
     display: flex;
-    align-items: center;
+    align-items:end;
     flex-direction: column;
     gap: 0.5em;
     
@@ -142,7 +142,7 @@ p {
     border: 0.1px solid black;
     background:rgb(0, 0, 0);
     border-radius: 90px 5px 5px 5px;    
-    box-shadow: -11px -6px 8px -7px red;
+    box-shadow: -11px -6px 14px -7px rgb(97, 0, 0);
     transition: .2s ease-in-out;
   }
   
@@ -159,7 +159,7 @@ p {
     border: 0.1px solid black;
     background:rgb(0, 0, 0);
     border-radius: 5px 90px 5px 5px;    
-    box-shadow: 11px -10px 8px -7px red;
+    box-shadow: 11px -6px 14px -7px rgb(97, 0, 0);
     transition: .2s ease-in-out;
   }
   
@@ -176,7 +176,7 @@ p {
     border: 0.1px solid black;
     background:rgb(0, 0, 0);
     border-radius: 5px 5px 5px 90px;
-    box-shadow: -14px 14px 8px -7px red;
+    box-shadow: -14px 6px 14px -7px rgb(97, 0, 0);
     transition: .2s ease-in-out;
   }
   
@@ -193,7 +193,7 @@ p {
     border: 0.1px solid black;
     background:rgb(0, 0, 0);
     border-radius: 5px 5px 90px 5px;
-    box-shadow: 14px 14px 8px -7px red; 
+    box-shadow: 14px 8px 14px -7px rgb(97, 0, 0); 
     transition: .2s ease-in-out;
   }
   
