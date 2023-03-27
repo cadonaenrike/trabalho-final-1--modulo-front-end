@@ -24,4 +24,4 @@ Faça o Gitclone com esse link: https://github.com/cadonaenrike/trabalho-final-1
 * [Professores da 14º do programa STARTER](https://www.growdev.com.br/).
 * Divulgue esse projeto para me ajudar a obter a primeira vaga. 📢.<br><br>
 ## 🚀 Exemplo de execução <br>
-![final-front-1-leve](https://user-images.githubusercontent.com/95323804/226779104-b716bc1c-7a01-42db-8bc4-895525731fc5.gif)
+![final-front-1-leve](https://user-images.githubusercontent.com/95323804/227814228-eb98fb8b-090a-427e-bd6f-1b5684b2df7d.gif)
