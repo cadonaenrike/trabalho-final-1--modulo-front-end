@@ -1,5 +1,7 @@
 <h1> Trabalho final 1º modulo front-end <h1/>
 
+## 🚀 Exemplo de execução <br>
+![final-front-1-leve](https://user-images.githubusercontent.com/95323804/227814228-eb98fb8b-090a-427e-bd6f-1b5684b2df7d.gif)
 ## Neste projeto o objetivo criar 3 paginas html de um currículo digital.
  Imagens de exemplo da atividade:<br><br>
  ![Screenshot_1](https://user-images.githubusercontent.com/95323804/226775407-8b72eee3-8933-48c7-9dd4-6edb4d57faac.png)<br>
@@ -23,5 +25,4 @@ Faça o Gitclone com esse link: https://github.com/cadonaenrike/trabalho-final-1
 * [GROWDEV](https://www.growdev.com.br/).
 * [Professores da 14º do programa STARTER](https://www.growdev.com.br/).
 * Divulgue esse projeto para me ajudar a obter a primeira vaga. 📢.<br><br>
-## 🚀 Exemplo de execução <br>
-![final-front-1-leve](https://user-images.githubusercontent.com/95323804/227814228-eb98fb8b-090a-427e-bd6f-1b5684b2df7d.gif)
+
